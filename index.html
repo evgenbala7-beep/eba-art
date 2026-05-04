@@ -6,15 +6,19 @@
     <title>☰БА | Художник Евгений Баляйкин | Саранск</title>
     <style>
         body { background-color: #0a0a0a; color: #e0e0e0; font-family: 'Courier New', Courier, monospace; margin: 0; padding: 20px; line-height: 1.6; }
-        header { max-width: 800px; margin: 40px auto; border-bottom: 1px dashed #333; padding-bottom: 30px; }
-        h1 { color: #fff; text-transform: uppercase; letter-spacing: 12px; font-size: 3.5rem; }
-        .manifesto { color: #ccc; border-left: 2px solid #ff0000; padding-left: 20px; margin-top: 20px; }
+        header { max-width: 800px; margin: 40px auto 60px auto; border-bottom: 1px dashed #333; padding-bottom: 30px; }
+        h1 { color: #fff; text-transform: uppercase; letter-spacing: 12px; margin-bottom: 20px; font-size: 3.5rem; }
+        .manifesto { color: #ccc; border-left: 2px solid #ff0000; padding-left: 20px; margin-top: 20px; text-align: justify; }
+        .manifesto p { margin-bottom: 15px; }
+        .manifesto strong { color: #fff; text-transform: uppercase; }
         .gallery { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 80px; }
         .work { border: 1px solid #1a1a1a; padding: 20px; background: #0d0d0d; }
-        .work img { width: 100%; height: auto; display: block; margin-bottom: 20px; }
-        .work-title { font-size: 1.4rem; font-weight: bold; color: #fff; display: block; margin-bottom: 10px; border-left: 3px solid #ff0000; padding-left: 15px; }
-        .contacts { text-align: center; margin-top: 80px; padding: 40px; border: 1px double #333; }
+        .work img { width: 100%; height: auto; display: block; border-bottom: 1px solid #1a1a1a; margin-bottom: 20px; }
+        .work-title { font-size: 1.4rem; font-weight: bold; color: #fff; display: block; margin-bottom: 10px; text-transform: uppercase; border-left: 3px solid #ff0000; padding-left: 15px; }
+        .work-desc { font-style: italic; color: #bbb; margin-bottom: 10px; }
+        .contacts { max-width: 800px; margin: 80px auto 0 auto; padding: 40px 20px; border: 1px double #333; text-align: center; background: #050505; }
         .contacts a { color: #ff0000; text-decoration: none; margin: 0 20px; font-weight: bold; }
+        footer { text-align: center; margin-top: 80px; color: #444; font-size: 0.8rem; }
     </style>
 </head>
 <body>
@@ -22,44 +26,58 @@
 <header>
     <h1>☰БА</h1>
     <div class="manifesto">
-        <p><strong>Маргинальный символизм</strong> из самого сердца Саранска. Честное искусство без правил и академических канонов.</p>
+        <p>Мое искусство — это <strong>маргинальный символизм</strong> и <strong>грязный экзистенциализм</strong>. Я не ищу красоты в глянце, я нахожу её в трещинах на бетоне и в тишине панельных кварталов.</p>
+        <p>Для меня искусство — способ вывернуть душу наизнанку. Я сознательно отказался от академических канонов: там учили, как "правильно", а я всегда знал, как "живо". Мой метод — это грубая форма и искренний характер.</p>
+        <p>Сегодня это амбиции, помноженные на суровую реальность Саранска, и попытка доказать, что настоящее искусство рождается внутри человека.</p>
     </div>
 </header>
 
 <main class="gallery">
-
     <div class="work">
-        <img src="Evgeniy_Balyaykin_Gold.jpg" alt="Золото">
-        <div class="work-info">
-            <span class="work-title">Золото</span>
-            <div class="work-meta">Холст / Масло</div>
-        </div>
+        <img src="1000020461.jpg" alt="Золото">
+        <span class="work-title">Золото</span>
+        <p class="work-desc">Натюрморт о жизни, которая выживает там, где пахнет пылью и честностью.</p>
     </div>
-
     <div class="work">
-        <img src="Евгений_Баляйкин_Sh.jpg" alt="Хранители">
-        <div class="work-info">
-            <span class="work-title">Хранители</span>
-            <div class="work-meta">Холст / Масло</div>
-        </div>
+        <img src="1000020588.jpg" alt="Хранители">
+        <span class="work-title">Хранители</span>
+        <p class="work-desc">Верная команда, чей дежурный пост никогда не пустует.</p>
     </div>
-
     <div class="work">
-        <img src="Евгений_Баляйкин_И.jpg" alt="Искра">
-        <div class="work-info">
-            <span class="work-title">Искра</span>
-            <div class="work-meta">Холст / Масло</div>
-        </div>
+        <img src="1000020459.jpg" alt="Искра">
+        <span class="work-title">Искра</span>
+        <p class="work-desc">Паразитизм на чужой искренности. Контраст между даром и использованием.</p>
     </div>
-
+    <div class="work">
+        <img src="1000020371.jpg" alt="Всё ещё ждём">
+        <span class="work-title">Всё ещё ждём</span>
+        <p class="work-desc">Траур по ушедшей жизни. Собаки в вечном ожидании хозяев.</p>
+    </div>
+    <div class="work">
+        <img src="1000019534.png" alt="Титаник">
+        <span class="work-title">Титаник</span>
+        <p class="work-desc">Миг фатального осознания на пороге Рая.</p>
+    </div>
+    <div class="work">
+        <img src="1000020460.jpg" alt="Оковы">
+        <span class="work-title">Оковы</span>
+        <p class="work-desc">Наедине с собой и своим страхом.</p>
+    </div>
+    <div class="work">
+        <img src="1000020593.png" alt="Манифест">
+        <span class="work-title">Манифест</span>
+        <p class="work-desc">Лицо проекта ☰БА.</p>
+    </div>
 </main>
 
 <section class="contacts">
+    <h2>Связь с художником</h2>
     <a href="https://vk.ru/we0get0to0anarchy" target="_blank">VKONTAKTE</a>
+    <a href="mailto:evgenbala7@gmail.com">EMAIL</a>
 </section>
 
 <footer>
-    <p style="text-align: center; color: #444; margin-top: 50px;">© EVGENIY BALYAIKIN | SARANSK NO RULES</p>
+    <p>© EVGENIY BALYAIKIN | ☰БА | SARANSK NO RULES</p>
 </footer>
 
 </body>
